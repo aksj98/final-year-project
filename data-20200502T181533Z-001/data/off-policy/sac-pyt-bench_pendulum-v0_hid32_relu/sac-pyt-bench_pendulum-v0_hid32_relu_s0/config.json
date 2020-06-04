@@ -1,0 +1,45 @@
+{
+    "ac_kwargs":	{
+        "activation":	"ReLU",
+        "hidden_sizes":	[
+            32
+        ]
+    },
+    "actor_critic":	"MLPActorCritic",
+    "alpha":	0.2,
+    "batch_size":	100,
+    "env_fn":	"<function call_experiment.<locals>.thunk_plus.<locals>.<lambda> at 0x7ff0ab151268>",
+    "epochs":	10,
+    "exp_name":	"sac-pyt-bench_pendulum-v0_hid32_relu",
+    "gamma":	0.99,
+    "logger":	{
+        "<spinup.utils.logx.EpochLogger object at 0x7ff0ab02b1d0>":	{
+            "epoch_dict":	{},
+            "exp_name":	"sac-pyt-bench_pendulum-v0_hid32_relu",
+            "first_row":	true,
+            "log_current_row":	{},
+            "log_headers":	[],
+            "output_dir":	"/home/spinup/Downloads/spinningup/data/sac-pyt-bench_pendulum-v0_hid32_relu/sac-pyt-bench_pendulum-v0_hid32_relu_s0",
+            "output_file":	{
+                "<_io.TextIOWrapper name='/home/spinup/Downloads/spinningup/data/sac-pyt-bench_pendulum-v0_hid32_relu/sac-pyt-bench_pendulum-v0_hid32_relu_s0/progress.txt' mode='w' encoding='UTF-8'>":	{
+                    "mode":	"w"
+                }
+            }
+        }
+    },
+    "logger_kwargs":	{
+        "exp_name":	"sac-pyt-bench_pendulum-v0_hid32_relu",
+        "output_dir":	"/home/spinup/Downloads/spinningup/data/sac-pyt-bench_pendulum-v0_hid32_relu/sac-pyt-bench_pendulum-v0_hid32_relu_s0"
+    },
+    "lr":	0.001,
+    "max_ep_len":	1000,
+    "num_test_episodes":	10,
+    "polyak":	0.995,
+    "replay_size":	1000000,
+    "save_freq":	1,
+    "seed":	0,
+    "start_steps":	10000,
+    "steps_per_epoch":	4000,
+    "update_after":	1000,
+    "update_every":	50
+}
